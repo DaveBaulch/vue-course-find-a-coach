@@ -98,7 +98,7 @@ export default {
           forceRefresh: refresh
         });
       } catch (error) {
-        //this.error = error.message || 'Something went wrong'; // need to work out why state is not defined?
+        this.error = error.message || 'Something went wrong'; // need to work out why state is not defined?
       }
       this.isLoading = false;
     },
